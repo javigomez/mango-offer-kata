@@ -1,5 +1,7 @@
+const ThreePerTwoOffer = 3;
+
 function threePerTwoDiscount(amount: number, price: number) {
-    return Math.floor(amount / 3) * price;
+    return Math.floor(amount / ThreePerTwoOffer) * price;
 }
 
 export function calculateMangosPrice(amount:number|null,price:number|null): number {
